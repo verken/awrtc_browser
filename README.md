@@ -10,3 +10,4 @@ Now you should have the final build in the ./build/bundle directory. You can tes
 
 # test
 To do the test, we will use the ./build/callapp_js.html as javascript example, edit the address to use your own signal server and stun server.
+Then you can test it through browser
