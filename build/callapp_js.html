@@ -52,6 +52,7 @@ class CallApp {
             this.mUiUrl.innerHTML = this.GetUrl();
         };
         this.mNetConfig.IceServers = [
+            //add strun server here
             { urls: "stun:stun.because-why-not.com:443" },
             { urls: "stun:stun.l.google.com:19302" }
         ];
@@ -60,6 +61,7 @@ class CallApp {
         //this.mNetConfig.SignalingUrl = "wss://signaling.because-why-not.com/testshared";
         this.mNetConfig.IsConference = false;
         this.mNetConfig.SignalingUrl = "wss://signaling.because-why-not.com/callapp";
+        //edit here!
     }
     GetParameterByName(name) {
         var url = window.location.href;
